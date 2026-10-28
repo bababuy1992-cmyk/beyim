@@ -1,0 +1,34 @@
+# Python environment & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Configuration & Secrets (IMPORTANT: Never commit API keys!)
+.env
+.env.*
+!.env.example
+
+# PyInstaller builds & executable packages
+build/
+dist/
+*.spec.bak
+
+# Logs & temporary run files
+run_logs/
+*.log
+*.wav
+*.mp3
+
+# Operating System & IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
